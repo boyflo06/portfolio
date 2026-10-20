@@ -1,6 +1,9 @@
+<script lang="typescript">
+</script>
+
 <template>
-  <div>
+  <div class=" bg-[#faf8f2]">
     <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    <NuxtPage />
   </div>
 </template>
