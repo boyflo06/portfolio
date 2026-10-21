@@ -12,10 +12,10 @@
 </script>
 
 <template>
-	<a href="/" class="flex items-center p-5 absolute">
+	<NuxtLink to="/" class="flex items-center p-5 absolute">
 		<Icon name="bx:arrow-back" class=" size-8"/>
 		<p class="text-2xl mx-1.5">Back</p>
-	</a>
+	</NuxtLink>
 	<div class="h-dvh flex justify-center items-center flex-col">
 		<h1 class=" text-5xl mb-10">About Me</h1>
 		<div class="flex flex-col w-1/2 max-w-full mb-10">
